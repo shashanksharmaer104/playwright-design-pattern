@@ -7,13 +7,10 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 public class SearchResult extends AbstractComponent {
 
-    //private Page page;
-
     private final String products = "//div[@class='product-thumb']";
 
     public SearchResult(Page page) {
         super(page);
-        //this.page = page;
     }
 
     public int getSearchResultCount() {

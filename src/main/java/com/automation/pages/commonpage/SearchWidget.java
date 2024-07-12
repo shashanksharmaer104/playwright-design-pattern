@@ -7,15 +7,12 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 public class SearchWidget extends AbstractComponent {
 
-    //private Page page;
-
     private final String searchWidget = "//div[@id='search']";
     private final String searchField = "//input";
     private final String searchBtn = "//button";
 
     public SearchWidget(Page page) {
         super(page);
-        //this.page = page;
     }
 
     @Override

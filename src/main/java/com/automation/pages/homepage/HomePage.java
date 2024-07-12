@@ -10,7 +10,6 @@ public class HomePage {
     private SearchWidget searchWidget;
     private NavigationHeader navigationHeader;
 
-
     public HomePage(Page page) {
         this.page = page;
         this.searchWidget = new SearchWidget(page);

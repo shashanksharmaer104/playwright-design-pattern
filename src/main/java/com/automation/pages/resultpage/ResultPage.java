@@ -7,7 +7,6 @@ public class ResultPage {
     private Page page;
     private SearchResult searchResult;
 
-
     public ResultPage(Page page) {
         this.page = page;
         this.searchResult = new SearchResult(page);
